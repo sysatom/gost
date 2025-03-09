@@ -10,6 +10,8 @@ require (
 	github.com/judwhite/go-svc v1.2.1
 )
 
+replace github.com/go-gost/core v0.3.1 => github.com/sysatom/core v0.0.0-20250309122938-a1f43189fb6a
+
 require (
 	github.com/aead/chacha20 v0.0.0-20180709150244-8b13a72661da // indirect
 	github.com/alecthomas/units v0.0.0-20211218093645-b94a6e3cc137 // indirect
